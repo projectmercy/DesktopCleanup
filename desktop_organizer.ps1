@@ -30,5 +30,5 @@ Move-Item -Path $ENV:USERPROFILE\Desktop\*.png -Destination $ENV:USERPROFILE\Pic
 Move-Item -Path $ENV:USERPROFILE\Desktop\*.gif -Destination $ENV:USERPROFILE\Pictures
 Move-Item -Path $ENV:USERPROFILE\Desktop\*.webp -Destination $ENV:USERPROFILE\Pictures
 
-#Misc
+#Misc (Requires folder to be created)
 Move-Item -Path $ENV:USERPROFILE\Desktop\*.* -Destination $ENV:USERPROFILE\Desktop\Misc
